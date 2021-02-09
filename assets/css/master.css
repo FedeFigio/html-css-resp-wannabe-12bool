@@ -1,0 +1,41 @@
+div {
+    text-align: center;
+}
+
+img {
+    height: 10rem;
+}
+
+#why img {
+    background-color: #428BCA;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+[class*="col-"] {
+    padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        height: 10rem;
+    }
+    .row {
+        padding: 0 2rem;
+    }
+    .bg-yellow-xs {
+        background-color: #F2F2CD;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img {
+        height: 15rem;
+    }
+    .bg-lg-gray {
+        background-color: #F9F9F9;
+    }
+    section {
+        margin-top: 5rem;
+    }
+}
