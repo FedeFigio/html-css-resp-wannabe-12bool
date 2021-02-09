@@ -28,12 +28,21 @@ img {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     img {
         height: 15rem;
     }
     .bg-lg-gray {
         background-color: #F9F9F9;
+    }
+    section {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img {
+        height: 15rem;
     }
     section {
         margin-top: 5rem;
